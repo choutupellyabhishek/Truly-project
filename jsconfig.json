@@ -1,0 +1,12 @@
+// C:\Users\chout\OneDrive\Desktop\new project\blog-website\jsconfig.json
+{
+  "compilerOptions": {
+    "baseUrl": "src", // Important: This tells Next.js/Webpack to resolve paths from the project root
+    "paths": {
+      "@/lib/*": ["app/lib/*"],       // Alias for src/app/lib
+      "@/models/*": ["app/lib/models/*"] // Alias for src/app/lib/models
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
+  "exclude": ["node_modules"]
+}
